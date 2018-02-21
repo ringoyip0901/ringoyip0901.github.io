@@ -1,0 +1,299 @@
+#display {
+  padding-top: 300px;
+}
+
+#about {
+  position: relative;
+  margin: 28px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 1;
+  filter: alpha(opacity=60);
+  top: 78px;
+  width: 1392px;
+  left: -36px;
+  height: 0px;
+}
+
+#experience {
+  position: absolute;
+  margin: 28px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  bottom: 30px;
+  width: 360px;
+  left: 101px;
+  height: 240px;
+  float: left;
+  display: in-line;
+  display: inline-block;
+  bottom: 105px;
+}
+
+#skills {
+  position: absolute;
+  margin: 28px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  bottom: 30px;
+  width: 360px;
+  left: 501px;
+  height: 240px;
+  float: left;
+  display: in-line;
+  display: inline-block;
+  bottom: 105px;
+}
+
+#education {
+  position: absolute;
+  margin: 28px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  bottom: 30px;
+  width: 360px;
+  left: 901px;
+  height: 240px;
+  float: left;
+  display: in-line;
+  display: inline-block;
+  bottom: 105px;
+}
+
+/* #frame {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 40%;
+  background-color: #f8f3ef;
+}
+
+#coverPhoto {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  height: 630px;
+  overflow: hidden;
+}
+
+#profilePhoto {
+  position: absolute;
+  width: 100%;
+} */
+
+#frame {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  padding-bottom: 40%;
+}
+
+#coverPhoto {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  margin: 0 auto;
+  height: 630px;
+}
+
+#profilePhoto{
+  position: absolute;
+  top: 105px;
+  left: 223px;
+  width: 470px;
+  height: 470px;
+  object-fit: cover;
+}
+
+#transbox {
+  position: absolute;
+  margin: 28px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.8;
+  filter: alpha(opacity=60);
+  top: 78px;
+  width: 470px;
+  left: 685px;
+  height: 470px;
+}
+
+#quote {
+  position: relative;
+  margin: 28px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.85;
+  filter: alpha(opacity=60);
+  top: 78px;
+  width: 1392px;
+  left: -36px;
+  height: 245px;
+}
+
+#quoteFrame {
+  position: relative;
+  margin: 28px;
+  background-color: #ffffff;
+  border: 0px solid black;
+  opacity: 0.8;
+  filter: alpha(opacity=60);
+  top: 18px;
+  width: 892px;
+  left: 223px;
+  height: 130px;
+}
+
+#display {
+  position: relative;
+  margin: 28px;
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  opacity: 1;
+  filter: alpha(opacity=60);
+  top: 78px;
+  width: 1392px;
+  left: -36px;
+  height: 0px;
+}
+
+#skills h1 {
+  margin-bottom: 0;
+  margin-top: 20px;
+  padding-left: 136px;
+}
+
+#experience h1 {
+  padding-left: 100px;
+}
+
+#experiencelist {
+  padding-right: 15px;
+}
+
+#skillsList {
+  margin-top: 23px;
+  margin-left: 42px;
+  padding-left: 0px
+}
+
+#education h1 {
+  padding-left: 100px;
+}
+
+
+#strong {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#experienced {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#emptySpace {
+  position: relative;
+  margin: 28px;
+  margin-top: 400px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0;
+  filter: alpha(opacity=60);
+  top: 78px;
+  width: 1392px;
+  left: -36px;
+  height: 230px;
+}
+
+#info {
+  margin-left: 75px;
+  margin-top: 50px;
+  color: #07077b;
+}
+
+#name {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 25px;
+}
+
+#title {
+  font-family: Verdana, Geneva, sans-serif;
+  font-style: bold;
+  font-style: normal;
+  font-size: 21px;
+  font-weight: 600;
+  margin-top: 7px;
+  letter-spacing: 0.05em;
+}
+
+#Phone {
+  font-family: Verdana, Geneva, sans-serif;
+  margin-top: 45px;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+#phoneNumber {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 14px;
+}
+
+#Email {
+  font-family: Verdana, Geneva, sans-serif;
+  margin-top: 25px;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+#emailAddress {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 14px;
+}
+
+#Skills {
+  font-family: Verdana, Geneva, sans-serif;
+  margin-top: 25px;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+#info ul {
+  line-height: 1.7;
+}
+
+#skillsList {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 14px;
+  margin-top: 0px;
+  margin-left: -14px;
+  padding-left: 0px;
+}
+
+#intro {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 18px;
+  color: #050548;
+}
+
+#intro p {
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+#teaching {
+  font-family: Verdana, Geneva, sans-serif;
+  color: #050548;
+  font-size: 14px;
+  padding-left: 247px;
+  padding-top: 1px;
+}
