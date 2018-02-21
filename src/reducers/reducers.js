@@ -3,7 +3,7 @@ const experience = "Software engineer @ React-Scope; Formerly Chemical Engineer 
 const education = "USC";
 const portfolio = "TBA"
 
-const intro = "Hey there! This website, built upon React/Redux, belongs to someone named Ringo Yip! :) I am a software engineer who just loves building anything in general, whether it is frontend or backend. The power of creating something out of nothing through lines of code really intrigues me. I'm always up for a coffee chat or just anything about programming in general!"
+const intro = "Hey there! This website, built upon React/Redux, belongs to someone named Ringo Yip! :) I am a software engineer who just loves building anything in general, whether it is frontend or backend. The power of creating something out of nothing through lines of code really intrigues me. I'm always up for a coffee chat or just anything about programming in general! Make sure to also check out my portfolio on my Github!"
 const init = {"about": about, "experience": experience, "education": education, "portfolio": portfolio, "intro": intro};
 
 export default function(state = init, action) {
